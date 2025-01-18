@@ -5,9 +5,13 @@ export default function Home() {
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <div className="card bg-base-100 image-full w-96 shadow-xl">
         <figure>
-          <img
+          <Image
             src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-            alt="Shoes" />
+            alt="Shoes"
+            width={400}
+            height={300}
+            priority
+          />
         </figure>
         <div className="card-body">
           <h2 className="card-title">Shoes!</h2>
